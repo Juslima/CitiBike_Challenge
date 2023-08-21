@@ -1,4 +1,5 @@
 # CitiBike_Challenge
 
 
-![Alt text]("C:\Users\julia\OneDrive\Documents\2. DATA ANALYTICS - BOOTCAMP\Module 18-Tableau\Challenge\citi-bike-station-bikes.jpg")
+![citi-bike-station-bikes](https://github.com/Juslima/CitiBike_Challenge/assets/130790909/d9434158-5e9c-4cfa-a567-5827786d69d4)
+
