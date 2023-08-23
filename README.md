@@ -10,31 +10,48 @@ Welcome to my Citi Bike Data Analysis project! In this project, I utilized Pytho
 The Citi Bike program is a bike-sharing initiative in New York City that provides a sustainable and convenient transportation option for residents and visitors. The goal of this project was to analyze the data from the Citi Bike program and present key findings through interactive visualizations using Tableau.
 
 ## Data Preparation
-To start the project, I used Python and the Pandas library to clean and combine the Citi Bike data for the year 2023. The data was collected monthly and stored in separate CSV files. The steps included:
+To start the project, I used Python and the Pandas library to clean and combine the Citi Bike data covering the period from January 2018 to December 2020. The data was collected monthly and stored in separate CSV files. The steps included:
 
 Loading each monthly CSV file into a Pandas DataFrame.
 Appending these DataFrames to create a single DataFrame containing data for the entire year.
 Cleaning the data by addressing any inconsistencies, missing values, or anomalies.
-The cleaned and combined data was then saved as a CSV file named CitiBike.csv.
+The cleaned and combined data was then saved as a CSV file named citibike.csv.
+Please note that the large size of the CSV files precludes their storage in this repository and in GitHub's Large File Storage.
 
 ## Tableau Workbook: CitiBike_challenge
-I created a Tableau workbook named "CitiBike_challenge" to visualize and analyze the Citi Bike program data. The workbook includes multiple interactive dashboards and visualizations to provide insights into the program's utilization and patterns. Here's an overview of the visualizations:
+# Dashboards
+Homepage
+The project encompasses a homepage and three interconnected dashboards that provide a holistic understanding of the Citi Bike program's dynamics. The homepage serves as an introduction, offering a concise summary of each dashboard's key findings, facilitating swift navigation to areas of interest.
 
-1. Overview Dashboard: This dashboard provides a high-level overview of the program's performance, including total rides, rideable types, and user types (members vs. casual riders).
-2. Monthly Trends: Visualizations in this section showcase the monthly trends in ride volume, popular start and end stations, and average ride duration.
-3. User Analysis: This dashboard focuses on user behavior, highlighting differences between members and casual riders. It includes metrics like average trip distance, top start and end stations for each user type, and ride distribution by age.
-4. Geospatial Analysis: Interactive maps display the distribution of start and end stations across the city, revealing the most popular biking routes.
-5. Peak Hours and Days: This visualization highlights the busiest hours and days of the week for the Citi Bike program.
+User Analysis
+This dashboard delves into user-based analyses, exploring aspects like user type, gender distribution, and age demographics. Additionally, it scrutinizes time-related patterns, including hourly and daily trends, while offering insights into the monthly trajectory of total trips.
 
-## Usage
-To explore the visualizations and insights from this project, follow these steps:
+Station Analysis
+Focused on station-centric insights, this dashboard compares weekday and weekend trends in relation to start and end stations. It further uncovers variations in average trip durations across months.
 
-1. Access the Tableau workbook: CitiBike_challenge
-2. Navigate through the dashboards and visualizations to gain insights into the Citi Bike program's utilization, user patterns, and trends.
-3. Interact with the visualizations by hovering over data points, filtering, and selecting to uncover more detailed information.
+Geographic Analysis
+Presenting geographic insights, this dashboard showcases two maps highlighting start and end station locations. Utilizing marker size and color, it visually represents trip frequency, thus aiding in understanding spatial utilization patterns.
 
-## Conclusion
-This project showcases the power of data analysis and visualization in understanding the utilization and patterns of the Citi Bike program. The Tableau workbook provides a user-friendly interface for exploring the data and gaining valuable insights that can inform decisions for program improvements and expansions.
+Usage
+To explore the interactive dashboards and gain insights from this project, follow these steps:
+
+Access the Tableau Public workbook: Citibike
+
+Navigate through the dashboards by clicking on their respective tabs. Each visualization offers filters, tooltips, and interactions that enable a deeper exploration of the data.
+
+Hover over data points, select filters, and click on specific elements to uncover more detailed information about Citi Bike program dynamics.
+
+Summary
+Upon analyzing the data spanning 2018 to 2020, we've observed significant insights:
+
+Trips Decline: There was a 4.83% decrease in trips over the three-year period, attributed to COVID-19-related factors.
+User Dynamics Shift: While subscribers decreased by 30.20%, customer numbers surged by 374.90%, reflecting pandemic influences.
+Gender Trends: The number of female riders increased by 12.55%, while male riders decreased by 22.29%.
+Peak Usage: Peak utilization occurred during weekdays from 8 a.m. to 5 p.m., likely driven by commuting needs.
+These findings offer a glimpse into the program's dynamic nature, influenced by various factors, including the COVID-19 pandemic.
+
+Conclusion
+This project's Tableau analysis has shed light on intricate usage patterns and trends within the Citi Bike program. The visualizations and insights showcased here not only inform decision-making for program enhancements but also encourage further exploration and research into the data. I hope that this analysis serves as a valuable resource for those interested in understanding the dynamics of the Citi Bike program.
 
 Feel free to reach out if you have any questions or feedback about this project!
 
